@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="plusieurs packages">
+	<test name="package de base">
+		<packages>
+			<package name="fr.formation"></package>
+		</packages>
+	</test>
+	<test name="dal et ihm">
+		<packages>
+			<package name="fr.formation.dal"></package>
+			<package name="fr.formation.ihm"></package>
+		</packages>
+	</test>
+</suite>
+

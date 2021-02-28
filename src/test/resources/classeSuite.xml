@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite classe">
+
+	<test name="classe3 et classe4">
+		<classes>
+			<class name="fr.formation.ihm.Classe1Test"></class>
+ 			<class name="fr.formation.Classe4Test"></class>
+		</classes>	
+	</test>
+
+</suite>
